@@ -1,54 +1,62 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
-    <!-- css -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="font-awesome.css">
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div id="mainbg">
-        <div id="frame">
-            <div id="bgleft">
-                <p> About me</p>
-                <h5>Frontend &nbsp; /&nbsp;&nbsp; Design &nbsp; /&nbsp;&nbsp; Freelance</h5>
-                <h2>An Educational Technologist with a passion for the implementation of 21st century tools 
-                    in teaching and learning.  
-                </h2>
-                <h3>Slack ID:</h3><h4>Taiwo Alagbe</h4>
-                <h3>State of Origin:</h3><h4>Osun State</h4>
-                <h3>Address:</h3><h4>Ilorin, Kwara State, Nigeria</h4>
-                <h3>Occupation:</h3><h4>Educational Technologist</h4>
-                <h3>Hobbies & Intreasts:</h3><h4>Reading &nbsp; /&nbsp;
-                    Writting&nbsp; /&nbsp;
-                    Photography&nbsp; /&nbsp;
-                    Music&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                </h4>
-               <div id="contact">
-                <h1>Contact me</h1>
-                <form>
-                            <input class="input" type="text" placeholder="Full Name" name="fullname">
-                            <input class="input" type="email" placeholder="Email Address" name="Email Address">
-                            <input class="input1" type="textarea" placeholder="Your Message">
-                            <button class="send" type="submit"> Send</button>
-                </form>
-               </div>
-                
-            </div>
-            <div id="bgcenter">
-                    <img src="img.png" alt="UserPicture" class="img">
-            </div>
-            <div id="bgright">
-                <i class="fa fa-navicon" id="fonts"></i>
-                <i class="fa fa-code" id="fon"></i>
-                <i class="fa fa-user" id="font"></i>
-                <i class="fa fa-phone" id="font"></i>
-                <i class="fa fa-twitter" id="font"><a herf= "https://twitter.com/Alagbe_tee?s=09"></a></i>
-                <i class="fa fa-comment" id="font"></i>
-                <i class="fa fa-link" id="font"></i>
-                
-            </div>
-        </div>
-    </div>
+	<div id="background">
+		<div id="logo">
+			<a href=""><img class="logo" src="piggy.png" alt="PiggyBank"></a>
+		</div>	
+		<div id="main">
+			<header>
+				<h1 class="header">
+					Create a Secure Account
+				</h1>
+				<p>
+					Welcome to the future of Savings & Investments
+				</p>
+			</header>
+			<form class="form">
+				<div class="field">
+					<label class="text">Full Name</label>
+					<input class="input" type="text" placeholder="Full Name" name="fullname">
+				</div>
+				<div class="field">
+					<label class="text">Email Address</label>
+					<input class="input" type="email" placeholder="Email Address" name="email">
+				</div>
+				<div class="field">
+					<label class="text">Phone Number</label>
+					<input class="input" type="tel" placeholder="Phone Number" name="phone">
+				</div>
+				<div class="field">
+					<label class="text">Password</label>
+					<input class="input" type="password" placeholder="Password" name="Password">
+				</div>
+				<div class="field">
+					<label class="text">Referrer or Promo Code (Optional)</label>
+					<input class="input" type="text" placeholder="Referrer Phone or Promo Code " name="code">
+				</div>
+				<div class="field">
+					<label class="text">How Did You Hear About Us? (Optional)</label>
+					<select class="select">
+						<option>Click To Select </option>
+						<option>Facebook</option>
+						<option>Instagram</option>
+						<option>Twitter</option>
+						<option>Family/Friend</option>
+						<option>Other</option>
+					</select> 
+				</div>
+				<div class="submit">
+					<button class="button" type="submit">CREATE ACCOUNT</button>
+				</div>
+			</form>	
+		</div>
+		<h1 class="link">Already have an account? Log in <a href=""></a></h1>
+	</div>
+
 </body>
 </html>
